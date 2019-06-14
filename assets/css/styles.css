@@ -9,35 +9,50 @@ body {
     margin:0;
     padding:0;
 }
+.header{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  padding: 0px; 
+  margin:0;
+}
 
 .header-container{
   position: relative;
   background-color:white;
   width: 100%;
-  height: 10%;
-  padding:0px 300px;
+  margin:auto;
+  max-width: 1000px;
+  height: 100%;
+  padding:0px 30px;
 }
 .myname{
-  position: relative;
   float: left;
-  background-color: #4aaaa5;
+  background-color: #178137;
   text-align: center;
   color:white;
   width: 340px;
-  height: 100%; 
+  height: 100%;
+}
+h1{
+  padding: 20px;
 }
 .nav{
   padding: 10px;
   float: right;
 }
+
 .container{
-  min-height: 100vh;
+  min-height: 120vh;
   width:100%;
   max-width: 960px;
   display: block;
   margin: auto;
 }
 .jumbotron{
+  overflow: auto;
+  position: relative;
+  min-height: 100%;
   max-width: 960px;
   margin: 0 auto;
   margin-top: 30px;
@@ -46,19 +61,22 @@ body {
   line-height: 2;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
+  
 }
 #bio-img{
   float: left;
   padding:20px;
 }
 h2{
-  color:#4aaaa5;
+  color:#178137;
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 hr.top{
   border: 1px solid rgb(165, 164, 164);
 }
+
+
 @media screen and (max-width: 920px) {
    .header-container {
      padding: 0px 0px;
@@ -69,9 +87,13 @@ hr.top{
     height: 50%;
      float: none;
    }
+   .jumbotron{
+    margin-top: 100px;
+   }
    .nav{
      width: 100%;
      float: none;
+     margin-right: 100px;
    }
  }
  @media screen and (max-width: 450px) {
@@ -82,11 +104,127 @@ hr.top{
   }
  }
 
+ .hangman{
+  position:relative;
+  float: left;
+  padding:10px 10px;
+
+}
+#hangman{
+  position: absolute;
+  width: 94%;
+  background-color: #178137;
+  bottom: 30px;
+  height: 50px;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  }
+  #hangman:hover{
+    color:#1da0d4;
+  }
+
+.rpg{
+  position: relative;
+  float: right;
+  padding:10px 10px;
+}
+#rpg{
+  position: absolute;
+  width: 94%;
+  background-color: #178137;
+  bottom: 30px;
+  height: 50px;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  }
+  #rpg:hover{
+    color:#1da0d4;
+  }
+.trivia{
+  position:relative;
+  float: left;
+  padding:10px 10px;
+}
+#trivia{
+  position: absolute;
+  width: 94%;
+  background-color: #178137;
+  bottom: 30px;
+  height: 50px;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  }
+  #trivia:hover{
+    color:#1da0d4;
+  }
+
+.rutgers{
+  position: relative;
+  float:right;
+  padding:10px 10px;
+}
+#rutgers{
+  position: absolute;
+  width: 94%;
+  background-color: #178137;
+  bottom: 30px;
+  height: 50px;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  }
+  #rutgers:hover{
+    color:#1da0d4;
+  }
+  .rock{
+    position: relative;
+    float:left;
+    padding:10px 10px;
+  }
+  #rock{
+    position: absolute;
+    width: 94%;
+    background-color: #178137;
+    bottom: 30px;
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    }
+    #rock:hover{
+      color:#1da0d4;
+    }
+
+    @media screen and (max-width: 768px){
+
+      .container-portfolio{
+        height:1500px
+      }
+    
+    
+    .rpg{
+      
+      float: left;
+      
+    }
+    
+    .rutgers{
+      
+      float: left;
+      
+    }
+  }
+
  #footer {
+  clear: both;
   background-color: rgb(136, 130, 130);
-  border-top: 7px solid #4aaaa5;
+  border-top: 7px solid #178137;
   bottom: 0;
   width: 100%;
   height: 60px;
   text-align: center; 
+  
 }
