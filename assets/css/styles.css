@@ -1,33 +1,92 @@
 *{
   box-sizing: border-box;
 }
+html,
 body {
-  height:100%;
-  background-image: url("../images/fresh_snow.png");
-   background-repeat: repeat;
-   margin:0;
-   padding:0;
+    height:100%;
+    background-image: url("../images/fresh_snow.png");
+    background-repeat: repeat;
+    margin:0;
+    padding:0;
 }
 
 .header-container{
   position: relative;
   background-color:white;
   width: 100%;
-  height: 30%;
-  
+  height: 10%;
+  padding:0px 300px;
 }
 .myname{
+  position: relative;
   float: left;
-  background-color: aquamarine;
+  background-color: #4aaaa5;
   text-align: center;
   color:white;
-  width:30%;
-  height: 20%;
-  margin-left: 100px;
-  
+  width: 340px;
+  height: 100%; 
 }
 .nav{
-  margin-right: 30px;
+  padding: 10px;
   float: right;
- 
+}
+.container{
+  min-height: 100vh;
+  width:100%;
+  max-width: 960px;
+  display: block;
+  margin: auto;
+}
+.jumbotron{
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: auto;
+  background-color: white;
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+#bio-img{
+  float: left;
+  padding:20px;
+}
+h2{
+  color:#4aaaa5;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr.top{
+  border: 1px solid rgb(165, 164, 164);
+}
+@media screen and (max-width: 920px) {
+   .header-container {
+     padding: 0px 0px;
+     height:180px;
+   }
+   .myname{
+    width: 100%;
+    height: 50%;
+     float: none;
+   }
+   .nav{
+     width: 100%;
+     float: none;
+   }
+ }
+ @media screen and (max-width: 450px) {
+  #bio-img {
+    float: none; 
+    margin: auto; 
+    display: block;
+  }
+ }
+
+ #footer {
+  background-color: rgb(136, 130, 130);
+  border-top: 7px solid #4aaaa5;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center; 
 }
