@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <!-- CSS Styles using bootstrap and custom -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href=".\assets\css\styles.css">
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!--Page Title-->
-    <title>About Me</title> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href=".\assets\css\styles.css">
+  <title>About Me</title>
 </head>
 
 <body>
-  <!-- Header and navigation menu -->
-<div class ="header">
-    <div class="header-container">
-        <div class = "myname">
-           <h1>Jaime Cardenas </h1>
-        </div>
-    <div class="nav">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-             <a class="nav-link active" href="./index.html">About</a>
-            </li>
-            <li class="nav-item">
-             <a class="nav-link" href="./portfolio.html">Portfolio</a>
-           </li>
-            <li class="nav-item">
-             <a class="nav-link" href="./contact.html">Contact</a>
-           </li>
-          </ul>
+  <header>
+    <div class="row">
+      <div class="col-lg-2">
       </div>
-  </div>
-</div>
+      <div class="col-lg-3">
+        <h1 class="myname">Jaime Cardenas</h1>
+      </div>
+      <div class="col-lg-3">
+      </div>
+      <div class="col-lg-2">
+        <nav class="nav">
+          <a class="nav-link active" href="./index.html">About</a>
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
 
-<!-- About me information -->
-<div class="container">
+  </header>
+
+  <div class="container">
     <div class="jumbotron">
-        <h2>About Me</h2>
-        <hr class="top">
-        <img id="bio-img"src="./assets/images/jaime.jpg" alt="Jaime Cardenas" height="200" width="200">
-        <p id="p1">My Name is Jaime Cardenas, I was born in Ecuador and came to the US when I was 12 years old.  I lived in NJ for 17 years
-          and moved to FL when I was 25 years old.  I was in sales for about 10 years until I opened my own business repairing computers and cellphones
-          for 5 years.<br>
-          I have a wife and a 10 month daughter who is my world.  Currently I work as the IT specialist for MasterCorp Inc at their Corporate office
-          in Orlando and working on moving to the Developing Team.<br>
-          I have been training Brazilian Jiu Jitsu for 8 years, currently I'm a brown belt and a few years away from becoming a black belt.<br>
-          If I'm not spending time with my family or working I'm definitely coding or training.  My Goal is to become a Senior Developer at
-          my company.</p>
+      <h1 class="display-6" id="about">About Me</h1>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-md-3">
+          <img id="bio-img" src="./assets/images/jaime.jpg" alt="Jaime Cardenas" height="250" width="250">
+        </div>
+        <div class="col-md-9">
+          <p>My Name is Jaime Cardenas, I was born in Ecuador and came to the US when I was 12 years old. I
+            lived in NJ for 17 years
+            and moved to FL when I was 25 years old. I was in sales for about 10 years until I opened my own business
+            repairing computers and cellphones
+            for 5 years.<br>
+            I have a wife and a 10 month daughter who is my world. Currently I work as the IT specialist for MasterCorp
+            Inc at their Corporate office
+            in Orlando and working on moving to the Developing Team.<br>
+            I have been training Brazilian Jiu Jitsu for 8 years, currently I'm a brown belt and a few years away from
+            becoming a black belt.<br>
+            If I'm not spending time with my family or working I'm definitely coding or training. My Goal is to become a
+            Senior Developer at
+            my company.</p>
+        </div>
+      </div>
     </div>
   </div>
-</div>  
 
-<!--footer-->
-<div id="footer">
-    
+  <footer>
         <p id="copyright">Copyright ©2019</p>
-   
-</div>
+  </footer>
 </body>
 
 </html>
