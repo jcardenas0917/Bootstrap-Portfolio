@@ -12,6 +12,7 @@ header{
 
 .myname{
   color:white;
+  width: 350px;
   height: 100%;
   background-color:#4aaaa5;
   text-align: center;
@@ -22,6 +23,9 @@ header{
 }
 
 @media screen and (max-width: 768px){
+  .myname{
+    width: 100%;
+  }
 
   .nav{
     margin-left: 20%;
