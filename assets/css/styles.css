@@ -5,9 +5,12 @@ html,
 body {
     background-image: url("../images/fresh_snow.png");
     background-repeat: repeat;
+    margin:0;
+    padding: 0;
 }
 header{
   background-color:white;
+  height: 20%;
 }
 
 .myname{
