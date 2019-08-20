@@ -74,3 +74,6 @@ p#copyright{
 #submit:hover{
   background-color: #4aaaa5;
 }
+#email, #phone,#message{
+  color: #4aaaa5;
+}
